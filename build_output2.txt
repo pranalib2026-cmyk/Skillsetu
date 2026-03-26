@@ -1,0 +1,95 @@
+
+> daksh-bharat@0.0.0 build
+> vite build
+
+[36mvite v8.0.0 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 2970 modules transformed.
+Γ£ù Build failed in 490ms
+error during build:
+Build failed with 9 errors:
+
+[UNRESOLVED_IMPORT] Error: Could not resolve '../store/authStore' in src/components/layout/RouteGuards.jsx
+   Γò¡ΓöÇ[ src/components/layout/RouteGuards.jsx:3:30 ]
+   Γöé
+ 3 Γöé import { useAuthStore } from "../store/authStore";
+   Γöé                              ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                                        Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found.
+   Γöé 
+   Γöé Help: 'src/components/layout/RouteGuards.jsx' is imported by the following path:
+   Γöé         - src/components/layout/RouteGuards.jsx
+   Γöé         - src/App.jsx
+   Γöé         - src/main.jsx
+   Γöé         - index.html
+ΓöÇΓöÇΓöÇΓò»
+
+[UNRESOLVED_IMPORT] Error: Could not resolve '../components/ui/Card' in src/components/feed/WorkerCard.jsx
+   Γò¡ΓöÇ[ src/components/feed/WorkerCard.jsx:3:35 ]
+   Γöé
+ 3 Γöé import Card, { CardContent } from "../components/ui/Card";
+   Γöé                                   ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                                              Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found.
+   Γöé 
+   Γöé Help: 'src/components/feed/WorkerCard.jsx' is imported by the following path:
+   Γöé         - src/components/feed/WorkerCard.jsx
+   Γöé         - src/pages/WorkersFeed.jsx
+   Γöé         - src/App.jsx
+   Γöé         - src/main.jsx
+   Γöé         - index.html
+ΓöÇΓöÇΓöÇΓò»
+
+[UNRESOLVED_IMPORT] Error: Could not resolve '../components/ui/Button' in src/components/feed/WorkerCard.jsx
+   Γò¡ΓöÇ[ src/components/feed/WorkerCard.jsx:4:20 ]
+   Γöé
+ 4 Γöé import Button from "../components/ui/Button";
+   Γöé                    ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                                Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found.
+   Γöé 
+   Γöé Help: 'src/components/feed/WorkerCard.jsx' is imported by the following path:
+   Γöé         - src/components/feed/WorkerCard.jsx
+   Γöé         - src/pages/WorkersFeed.jsx
+   Γöé         - src/App.jsx
+   Γöé         - src/main.jsx
+   Γöé         - index.html
+ΓöÇΓöÇΓöÇΓò»
+
+[UNRESOLVED_IMPORT] Error: Could not resolve '../components/ui/Badge' in src/components/feed/WorkerCard.jsx
+   Γò¡ΓöÇ[ src/components/feed/WorkerCard.jsx:5:19 ]
+   Γöé
+ 5 Γöé import Badge from "../components/ui/Badge";
+   Γöé                   ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                               Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found.
+   Γöé 
+   Γöé Help: 'src/components/feed/WorkerCard.jsx' is imported by the following path:
+   Γöé         - src/components/feed/WorkerCard.jsx
+   Γöé         - src/pages/WorkersFeed.jsx
+   Γöé         - src/App.jsx
+   Γöé         - src/main.jsx
+   Γöé         - index.html
+ΓöÇΓöÇΓöÇΓò»
+
+[UNRESOLVED_IMPORT] Error: Could not resolve '../components/ui/Modal' in src/components/layout/TermsModal.jsx
+   Γò¡ΓöÇ[ src/components/layout/TermsModal.jsx:2:19 ]
+   Γöé
+ 2 Γöé import Modal from "../components/ui/Modal";
+   Γöé                   ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   Γöé                               Γò░ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ Module not found.
+   Γöé 
+   Γöé Help: 'src/components/layout/TermsModal.jsx' is imported by the following path:
+   Γöé         - src/components/layout/TermsModal.jsx
+   Γöé         - src/pages/Onboarding.jsx
+   Γöé         - src/App.jsx
+   Γöé         - src/main.jsx
+   Γöé         - index.html
+ΓöÇΓöÇΓöÇΓò»
+
+...
+    at aggregateBindingErrorsIntoJsError (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/rolldown/dist/shared/error-CP8smW_P.mjs:48:18)
+    at unwrapBindingResult (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/rolldown/dist/shared/error-CP8smW_P.mjs:18:128)
+    at #build (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/rolldown/dist/shared/rolldown-build-4YnQkA76.mjs:3311:34)
+    at async buildEnvironment (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/vite/dist/node/chunks/node.js:32794:64)
+    at async Object.build (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/vite/dist/node/chunks/node.js:33216:19)
+    at async Object.buildApp (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/vite/dist/node/chunks/node.js:33213:153)
+    at async CAC.<anonymous> (file:///C:/Users/Asus/.gemini/antigravity/scratch/daksh-bharat/node_modules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}
