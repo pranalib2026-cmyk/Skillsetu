@@ -6,7 +6,7 @@
 
 ---
 
-## 🌱 Overview
+##  Overview
 
 **Skill Setu** is a digital platform designed to empower rural and semi-urban workers by providing **accessible, verified, and fair employment opportunities**.
 
@@ -17,16 +17,16 @@ It addresses a critical gap in the informal labor market—where:
 
 ---
 
-## 🚀 What This Project Does
+##  What This Project Does
 
-* 🔍 **Connects** local employers with skilled workers
-* 🪪 **Verifies skills** through structured validation mechanisms
-* 🤝 **Builds trust** via multi-layer credibility systems
-* ⚡ **Optimizes matching** using intelligent ranking logic
+*  **Connects** local employers with skilled workers
+*  **Verifies skills** through structured validation mechanisms
+*  **Builds trust** via multi-layer credibility systems
+*  **Optimizes matching** using intelligent ranking logic
 
 ---
 
-## 🧠 Core Philosophy
+##  Core Philosophy
 
 > “Trust is the currency of informal economies.”
 
@@ -38,7 +38,7 @@ Skill Setu is built on three foundational principles:
 
 ---
 
-## 🏗️ System Architecture (High-Level)
+##  System Architecture (High-Level)
 
 ```plaintext
 Frontend  →  API Layer  →  Core Services  →  Data Layer
@@ -48,11 +48,11 @@ Frontend  →  API Layer  →  Core Services  →  Data Layer
                │              └── Trust Scoring System
 ```
 
-> ⚠️ Note: Internal architecture and logic are intentionally abstracted to maintain system integrity.
+>  Note: Internal architecture and logic are intentionally abstracted to maintain system integrity.
 
 ---
 
-## 🔐 Privacy & Security
+##  Privacy & Security
 
 * Sensitive logic and algorithms are **not exposed in this repository**
 * All authentication and data flows follow **secure design principles**
@@ -60,7 +60,7 @@ Frontend  →  API Layer  →  Core Services  →  Data Layer
 
 ---
 
-## 🛠️ Tech Stack (Abstracted)
+##  Tech Stack (Abstracted)
 
 * **Frontend:** Modern UI/UX frameworks
 * **Backend:** Scalable service-based architecture
@@ -71,7 +71,7 @@ Frontend  →  API Layer  →  Core Services  →  Data Layer
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 
 * Rural workers finding verified job opportunities
 * Local businesses hiring trusted skilled labor
@@ -85,7 +85,7 @@ To build a **decentralized, trust-driven labor ecosystem** that empowers million
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 > This repository is currently in a **restricted implementation phase**.
 
@@ -95,21 +95,21 @@ For collaboration, research discussions, or demo access:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are currently limited due to the nature of the project.
 However, suggestions, feedback, and research inputs are welcome.
 
 ---
 
-## 📄 License
+##  License
 
 This project is under a **restricted license**.
 Usage, reproduction, or distribution without permission is not allowed.
 
 ---
 
-## ✨ Final Note
+##  Final Note
 
 Skill Setu is more than a platform—
 it’s an attempt to redefine **trust, dignity, and opportunity** in the informal workforce.
